@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+#title{
+  font-family:'Montserrat',Sans-serif;
+  text-align:center;
+  text-decoration:none;
+  line-height: 1.75rem;
+}
+*{
+  box-sizing:border-box;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0,0.06);
+  padding: 15px;
+  border-radius:20px;
+  width:100%;
+}
+.form{
+  display:block;
+  position:relative;
+  border-style:outset;
+  max-width:fit-content;
+
+}
+body{
+  font-family:'Montserrat',Sans-serif;
+  display:block;
+  margin:0 auto;
+  padding:200px;
+  background:linear-gradient(0.02turn, #3f87a6, #ebf8e1, #f69d3c)
+}
+.name{
+  margin:10px 10px 10px 10px;
+  padding:0;
+  display:float;
+}
+#email{
+  margin:10px 0px 10px 0px;
+  padding:auto;
+}
+.text-area{
+  width:100%;
+  resize:vertical;
+}
+p#description{
+  text-align:center;
+}
+.text-area{
+  width:100%;
+  resize:vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+}
+.submit-button{
+  background:rgb(196, 155, 115);
+}
+.check-boxes{
+  position:absolute;
+  top:0;
+  left:0;
+  width:20px; 
+  height:20px;
+}
+.submit-button :focus{
+  border:11px solid #aaa;
+}
+.check-boxes :focus{
+  border:1px solid #aaa;
+}
+body ::before{
+  background-color: yellow;
+  color: red;
+}
+body ::after{
+  background-color:blue;
+}
+.form :focus{
+  box-shadow:#f69d3c;
+}
